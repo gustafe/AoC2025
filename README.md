@@ -12,11 +12,18 @@ myself without help.
 
 ## TODO
 
-Running score: 4 / 4
+Running score: 6 / 6
+
+### Day 3: Lobby
+
+Naive straightforward solution for part 1, recursive for part 2.
+
+Score: 2
 
 ### Day 2: Gift Shop
 
-It was faster solving this by thinking about than trying to find a regex online to solve it.
+It was faster solving this by thinking about than trying to find a
+regex online to solve it.
 
 Score: 2
 
