@@ -12,7 +12,13 @@ myself without help.
 
 ## TODO
 
-Running score: 6 / 6
+Running score: 8 / 8
+
+### Day 4: Printing Department
+
+A nice easy problem. I have enough data to produce a nice heatmap, should I choose to.
+
+Score: 2
 
 ### Day 3: Lobby
 
