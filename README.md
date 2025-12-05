@@ -12,7 +12,14 @@ myself without help.
 
 ## TODO
 
-Running score: 8 / 8
+Running score: 10 / 10
+
+### Day 5: Cafeteria
+
+Easiest yet, I believe. Had some issues with off-by-one errors but
+they were cleared up using testing data.
+
+Score: 2
 
 ### Day 4: Printing Department
 
