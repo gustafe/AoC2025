@@ -1,5 +1,5 @@
 #! /usr/bin/env perl
-# Advent of Code 2025 Day 6 - Trash Compactor - part 2 
+# Advent of Code 2025 Day 6 - Trash Compactor - complete solution
 # https://adventofcode.com/2025/day/6
 # https://gerikson.com/files/AoC2025/UNLICENSE
 ###########################################################
@@ -9,6 +9,7 @@ use Modern::Perl '2015';
 use List::Util qw/sum product max/;
 use Data::Dump qw/dump/;
 use Test::More;
+use Clone qw/clone/;
 use Time::HiRes qw/gettimeofday tv_interval/;
 sub sec_to_hms;
 
@@ -22,6 +23,32 @@ open( my $fh, '<', "$file" );
 while (<$fh>) { chomp; s/\r//gm; push @input, $_; }
 
 ### CODE
+
+# part 1
+
+my @ops1 = split( /\s+/, $input[-1] );
+my @indata1;
+for my $k ( 0 .. $#input - 1 ) {
+    push @indata1, [ split( /\s+/, $input[$k] ) ];
+}
+my $total1 = 0;
+for ( my $idx = 0; $idx <= $#ops1; $idx++ ) {
+    my @operands;
+    for my $line (@indata1) {
+        push @operands, $line->[$idx];
+    }
+    if ( $ops1[$idx] eq '+' ) {
+        $total1 += sum(@operands);
+    } elsif ( $ops1[$idx] eq '*' ) {
+        $total1 += product(@operands);
+    } else {
+        die "unknown operand: $ops1[$idx]";
+    }
+
+}
+
+# Part 2
+
 my @ops = split( //, pop @input );
 my $Map;
 my $r = 0;
@@ -70,7 +97,8 @@ for my $p ( keys %$pos ) {
     }
 }
 ### FINALIZE - tests and run time
-is( $total, 10227753257799, "Part 2: $total" );
+is( $total1, 5227286044585,  "Part 1: $total1" );
+is( $total,  10227753257799, "Part 2: $total" );
 done_testing();
 say sec_to_hms(tv_interval($start_time));
 
@@ -93,10 +121,6 @@ Holy pythonic code, Batman - significant whitespace!
 
 This is my list favorite "advanced" AoC problem concept - not hard, just very very fiddly. 
 
-I'm only including part 2 here because part 1 is, imho, trivial.
-
 Score: 2
-
-Leaderboard completion time: 00m00s
 
 =cut

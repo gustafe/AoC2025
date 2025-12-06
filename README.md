@@ -20,11 +20,7 @@ Holy pythonic code, Batman - significant whitespace!
 
 This is my list favorite "advanced" AoC problem concept - not hard, just very very fiddly. 
 
-I'm only including part 2 here because part 1 is, imho, trivial.
-
 Score: 2
-
-Leaderboard completion time: 00m00s
 
 ### Day 5: Cafeteria
 
