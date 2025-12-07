@@ -12,7 +12,13 @@ myself without help.
 
 ## TODO
 
-Running score: 12 / 12
+Running score: 14 / 14
+
+### Day 7: Laboratories
+
+Not my best work, but it's not been my best day either. 
+
+Score: 2
 
 ### Day 6: Trash Compactor
 
