@@ -12,7 +12,22 @@ myself without help.
 
 ## TODO
 
-Running score: 14 / 14
+Running score: 16 / 16
+
+### Day 8: Playground
+
+Finally we're getting into the harder problems... maybe I will regret
+saying that.
+
+Anyway, after doing my best trying to implement a graph from first
+principles, I remember the [Graph
+module](https://metacpan.org/dist/Graph/view/lib/Graph.pod)
+exists. Some dicking around in the documentation got me what I needed.
+
+This code barely finishes on my $5 VPS, but running on a Real
+Computer(tm) gives the answers in about 15s.
+
+Score: 2
 
 ### Day 7: Laboratories
 
