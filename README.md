@@ -12,7 +12,13 @@ myself without help.
 
 ## TODO
 
-Running score: 16 / 16
+Running score: 18 / 18
+
+### Day 9: Movie Theater
+
+My solution is very slow, so I will update this file with a better solution later.
+
+Score: 2
 
 ### Day 8: Playground
 
