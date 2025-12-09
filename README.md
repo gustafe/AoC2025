@@ -12,6 +12,8 @@ myself without help.
 
 ## TODO
 
+- Add solution for day 9
+
 Running score: 18 / 18
 
 ### Day 9: Movie Theater
