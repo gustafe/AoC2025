@@ -22,9 +22,6 @@ myself without help.
 
 =over
 
-=item Add solution for day 9
-
-
 =back
 
 =cut

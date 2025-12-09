@@ -12,13 +12,11 @@ myself without help.
 
 ## TODO
 
-- Add solution for day 9
-
 Running score: 18 / 18
 
 ### Day 9: Movie Theater
 
-My solution is very slow, so I will update this file with a better solution later.
+Today was pretty fun! I went down some wrong paths but got to it in the end.
 
 Score: 2
 
