@@ -12,7 +12,17 @@ myself without help.
 
 ## TODO
 
-Running score: 18 / 18
+- Day 10 part 2
+
+Running score: 19 / 20
+
+### Day 10: Factory, part 1
+
+I was really proud of solving part 1 without any help or hints, but
+part 2 seems to be requiring some CS stuff I've never heard of, so
+I'll be putting that in the back burner.
+
+Score: 1
 
 ### Day 9: Movie Theater
 
