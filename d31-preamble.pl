@@ -24,6 +24,8 @@ myself without help.
 
 =item Day 10 part 2
 
+=item Day 11 part 2
+
 =back
 
 =cut
