@@ -13,16 +13,19 @@ myself without help.
 ## TODO
 
 - Day 10 part 2
-- Day 11 part 2
 
 Running score: 20 / 22
 
-### Day 11: Reactor, part 1
+### Day 11: Reactor
 
-Part 1 only for now. I got the answer easily using the Graph module,
+For part 1, I got the answer easily using the Graph module,
 previously seen in day 8. However, trying to use it in part 2 gave me
 an OOM, so obviously there's something hinky going on with the new
 paths...
+
+I took a look at the subreddit and found a solution that was more in
+line with my original intuition about using recursion. Credit in
+source!
 
 Score: 1
 
