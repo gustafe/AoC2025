@@ -75,7 +75,7 @@ Score: 2
 
 Holy pythonic code, Batman - significant whitespace! 
 
-This is my list favorite "advanced" AoC problem concept - not hard, just very very fiddly. 
+This is my least favorite "advanced" AoC problem concept - not hard, just very very fiddly. 
 
 Score: 2
 
