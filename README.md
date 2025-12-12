@@ -13,8 +13,15 @@ myself without help.
 ## TODO
 
 - Day 10 part 2
+- Day 12
 
-Running score: 20 / 22
+Running score: 20 / 24
+
+### Day 12: Christmas Tree Farm
+
+TODO. 
+
+Score: 0
 
 ### Day 11: Reactor
 
